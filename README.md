@@ -32,7 +32,7 @@ Imagens: Pexels
 Fonte: Inter
 
 <p align="center">
-  <img src="https://github.com/josefferson25/jokenpo/blob/main/print-projeto.jpeg.jpg?raw=true" alt="Print do projeto" width="700"/>
+  <img src="https://github.com/josefferson25/jokenpo/blob/main/print-projeto.jpeg.jpeg?raw=true" alt="Print do projeto" width="700"/>
 </p>
 
 📄 Licença MIT
