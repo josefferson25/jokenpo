@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="JokenPô moderno e responsivo com imagens gratuitas."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,600;14..32,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>JokenPô · moderno</title>
+  </head>
+  <body>
+    <main class="game-panel">
+      <h1 class="game-title">✧ JOKENPÔ ✧</h1>
+
+      <div class="choice-group">
+        <button class="choice-btn" id="stone" aria-label="Pedra">
+          <img
+            src="https://images.pexels.com/photos/1287145/pexels-photo-1287145.jpeg?auto=compress&cs=tinysrgb&w=600&h=600&fit=crop"
+            alt="Pedra"
+            class="choice-img"
+            loading="lazy"
+          />
+          <span class="btn-label">pedra</span>
+        </button>
+        <button class="choice-btn" id="paper" aria-label="Papel">
+          <img
+            src="https://images.pexels.com/photos/1585325/pexels-photo-1585325.jpeg?auto=compress&cs=tinysrgb&w=600&h=600&fit=crop"
+            alt="Papel"
+            class="choice-img"
+            loading="lazy"
+          />
+          <span class="btn-label">papel</span>
+        </button>
+        <button class="choice-btn" id="scissors" aria-label="Tesoura">
+          <img
+            src="https://images.pexels.com/photos/57750/pexels-photo-57750.jpeg?auto=compress&cs=tinysrgb&w=600&h=600&fit=crop"
+            alt="Tesoura"
+            class="choice-img"
+            loading="lazy"
+          />
+          <span class="btn-label">tesoura</span>
+        </button>
+      </div>
+
+      <div class="status-area">
+        <p class="status-message" id="choices">
+          Escolha uma opção acima para jogar
+        </p>
+        <p class="result-message" id="result"></p>
+      </div>
+
+      <div class="score-container">
+        <div class="score-card">
+          <span class="score-label">você</span>
+          <span class="score-value" id="human-score">0</span>
+        </div>
+        <div class="score-card">
+          <span class="score-label">máquina</span>
+          <span class="score-value" id="machine-score">0</span>
+        </div>
+      </div>
+
+      <button class="reset-button" id="reset">↻ reiniciar partida</button>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
