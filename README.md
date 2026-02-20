@@ -22,12 +22,12 @@ Um jogo de Pedra, Papel e Tesoura com design moderno, responsivo e imagens do Pe
    🔗 Acesso Online: https://josefferson25.github.io/jokenpo/
 
    
-   📁 Estrutura 
+ ##   📁 Estrutura 
 index.html - Página principal
 styles.css - Estilos do projeto
 script.js - Lógica do jogo
 
-📸 Créditos
+## 📸 Créditos
 Imagens: Pexels
 Fonte: Inter
 
@@ -35,5 +35,5 @@ Fonte: Inter
   <img src="https://github.com/josefferson25/jokenpo/blob/main/print-projeto.jpeg.jpeg?raw=true" alt="Print do projeto" width="700"/>
 </p>
 
-📄 Licença MIT
+## 📄 Licença MIT
 Este projeto está licenciado sob a Licença MIT – você pode usar, modificar, copiar, distribuir e até usá-lo comercialmente, desde que mantenha o aviso de direitos autorais e a isenção de responsabilidade.
